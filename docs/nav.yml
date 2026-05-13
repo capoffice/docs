@@ -3,14 +3,50 @@
 # pagesvisibility, categorynames) are preserved on rebuild.
 
 sections:
-  # (none yet — add section-id to page frontmatter to auto-create)
+  - code: communication
+    defaultname: Communication
+    sort: 100
+    pagesvisibility: visible
+
+  - code: emergencysafety
+    defaultname: Emergency & safety
+    sort: 110
+    pagesvisibility: visible
+
+  - code: interpreters
+    defaultname: Interpreters
+    sort: 120
+    pagesvisibility: visible
+
+  - code: itequipment
+    defaultname: It & equipment
+    sort: 130
+    pagesvisibility: visible
+
+  - code: peopleadmin
+    defaultname: People & admin
+    sort: 140
+    pagesvisibility: visible
+
+  - code: reception
+    defaultname: Reception
+    sort: 150
+    pagesvisibility: visible
+
+  - code: securityconfidentiality
+    defaultname: Security & confidentiality
+    sort: 160
+    pagesvisibility: visible
+
 pages:
   - file: pages/communication/home.md
     title: Overview
+    section-id: communication
     sort: 100
 
   - file: pages/emergencysafety/home.md
     title: Overview
+    section-id: emergencysafety
     sort: 100
 
   - file: pages/home.md
@@ -19,20 +55,25 @@ pages:
 
   - file: pages/interpreters/home.md
     title: Overview
+    section-id: interpreters
     sort: 100
 
   - file: pages/itequipment/home.md
     title: Overview
+    section-id: itequipment
     sort: 100
 
   - file: pages/peopleadmin/home.md
     title: Overview
+    section-id: peopleadmin
     sort: 100
 
   - file: pages/reception/home.md
     title: Overview
+    section-id: reception
     sort: 100
 
   - file: pages/securityconfidentiality/home.md
     title: Overview
+    section-id: securityconfidentiality
     sort: 100
