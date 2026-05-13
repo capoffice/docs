@@ -9,7 +9,7 @@
     "date": "",
     "datetime": "",
     "language": "en",
-    "body": "# MD-CMS\n\nThis is the default startpage for MD-CMS. \n\n## Testing MD-CMS\n\nIf you want to test `MD-CMS` you can grab `samplesite` from the repo and place the content in your website root. This page (`pages/home.md`) won't be replaced.\n\n**Post listing tests** below contains various custom tags to display posts. There are no posts now, but if you download the `samplesite` it will fetch the posts in \n\n## Post listing tests\n\n## Reverse chronological (newest first)\n\n```mdcms\nposts-date-reversechronological\nlimit: 3\npaginate: no\n```\n\n## Chronological (oldest first)\n\n```mdcms\nposts-date-chronological\nlimit: all\npaginate: none\n```\n\n## By year (date, reverse chrono)\n\n```mdcms\nposts-date-reversechronological-byyear\nlimit: all\ndefaultyear: current\nselectyear: yes\npaginate: none\n```\n\n## By year+month (datetime, chrono)\n\n```mdcms\nposts-datetime-chronological-byyearmonth\nlimit: all\ndefaultyear: 2024\nselectyear: yes\n```\n\n## Last 30 days\n\n```mdcms\nposts-date-reversechronological-lastmonth\nlimit: all\npaginate: none\n```\n\n## Paginated (2 per page)\n\n```mdcms\nposts-datetime-reversechronological\nlimit: 2\npaginate: yes\n```\n"
+    "body": "# MD-CMS\n\nThis is the default startpage for MD-CMS. \n\n## Layout\n\n> This information is merely temporary while the system is being built.\n\n**100: People and admin:** Staff, leave requests, invoices/reimbursements, onboarding\n\n**200: Communication:** Internal, external, translation\n\n**300: Security/confidentiality:** Client confidentiality, Physical documents, Digital security, Visitor/client management\n\n**400: IT/equipment:** Printer, scanner, computers, software, phones, software access \n\n**500: Emergency and safety:** Fire/evacuation, medical emergency, security incidents\n\n**600 Interpreters:** Documents, confidentiality, timesheets, etc.\n\n**700 Reception:** Handling inquiries, emails, phone system, tickets, responses, etc.\n\n**800 General procedures and knowledge:** UNHCR, NSM, resettlement procedures for reception"
   },
   {
     "file": "pages/communication/home.md",
@@ -24,6 +24,18 @@
     "body": "# Communication \n**200: Communication:** Internal, external, translation"
   },
   {
+    "file": "pages/emergencysafety/buildingtechnician.md",
+    "title": "Overview",
+    "section-id": "emergencysafety",
+    "keywords": "",
+    "description": "",
+    "author": null,
+    "date": "",
+    "datetime": "",
+    "language": "en",
+    "body": "# Emergency and safety \n**500: Emergency and safety:** Fire/evacuation, medical emergency, security incidents"
+  },
+  {
     "file": "pages/emergencysafety/home.md",
     "title": "Overview",
     "section-id": "emergencysafety",
@@ -34,6 +46,18 @@
     "datetime": "",
     "language": "en",
     "body": "# Emergency and safety \n**500: Emergency and safety:** Fire/evacuation, medical emergency, security incidents"
+  },
+  {
+    "file": "pages/emergencysafety/poweroutage.md",
+    "title": "Power outage",
+    "section-id": "emergencysafety",
+    "keywords": "",
+    "description": "",
+    "author": null,
+    "date": "",
+    "datetime": "",
+    "language": "en",
+    "body": "# Power outage\n\nIn case of a power outage you will lose access to the air conditioning, internet, and the entrance door will be locked.\n\n**Open the entrance door:** If the power is not restored within a short amount of time, you need to open the door using the **office key** which is kept on Tae's desk:\n![image](assets/images/officekey.png)\n\nFor safety reasons, please open the left entrance door using this key at the bottom frame. Keep the door open as long as staff remain in the office.\n\n**Leaving the office:** If the power outage appears to continue for a long time, consider emptying the office and [lock it](pages/reception/opencloseoffice.md). \n\nWhen people leave the office, use the emergency stairs next to the men's room. The last person out locks the entrance door and notifies Tae and Kristian.\n\n**Toilets will work:** The toilets will work for some time during a power outage.\n\n**Power restoration:** Check that the air condition and internet is properly restored when the power returns. If the air conditioning does not push cold air, please switch it off and contact Tae or the [building technician](pages/itequipment/tehcnicalstaff.md). If the air condition is not cooling, please switch it off. If it appears that it might take a long time before air conditioning is restored, consider emptying the office.\n"
   },
   {
     "file": "pages/interpreters/home.md",

@@ -44,6 +44,11 @@ pages:
     section-id: communication
     sort: 100
 
+  - file: pages/emergencysafety/buildingtechnician.md
+    title: Overview
+    section-id: emergencysafety
+    sort: 100
+
   - file: pages/emergencysafety/home.md
     title: Overview
     section-id: emergencysafety
@@ -77,3 +82,8 @@ pages:
     title: Overview
     section-id: securityconfidentiality
     sort: 100
+
+  - file: pages/emergencysafety/poweroutage.md
+    title: Power outage
+    section-id: emergencysafety
+    sort: 900
