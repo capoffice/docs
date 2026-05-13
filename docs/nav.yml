@@ -7,7 +7,7 @@ sections:
 pages:
   - file: pages/hidden/electricityoutage.md
     title: HIDDEN
-    sort: 100
+    sort: 110
 
   - file: pages/home.md
     title: Home
