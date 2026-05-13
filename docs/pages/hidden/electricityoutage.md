@@ -1,9 +1,9 @@
 ---
-title: Home
+title: HIDDEN
 sort: 100
 ---
 
-# MD-CMS
+# HIDDEN
 
 This is the default startpage for MD-CMS. 
 
