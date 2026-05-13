@@ -5,10 +5,34 @@
 sections:
   # (none yet — add section-id to page frontmatter to auto-create)
 pages:
-  - file: pages/hidden/electricityoutage.md
-    title: HIDDEN
-    sort: 110
+  - file: pages/communication/home.md
+    title: Overview
+    sort: 100
+
+  - file: pages/emergencysafety/home.md
+    title: Overview
+    sort: 100
 
   - file: pages/home.md
     title: Home
+    sort: 100
+
+  - file: pages/interpreters/home.md
+    title: Overview
+    sort: 100
+
+  - file: pages/itequipment/home.md
+    title: Overview
+    sort: 100
+
+  - file: pages/peopleadmin/home.md
+    title: Overview
+    sort: 100
+
+  - file: pages/reception/home.md
+    title: Overview
+    sort: 100
+
+  - file: pages/securityconfidentiality/home.md
+    title: Overview
     sort: 100

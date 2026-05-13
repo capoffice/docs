@@ -12,8 +12,8 @@
     "body": "# MD-CMS\n\nThis is the default startpage for MD-CMS. \n\n## Testing MD-CMS\n\nIf you want to test `MD-CMS` you can grab `samplesite` from the repo and place the content in your website root. This page (`pages/home.md`) won't be replaced.\n\n**Post listing tests** below contains various custom tags to display posts. There are no posts now, but if you download the `samplesite` it will fetch the posts in \n\n## Post listing tests\n\n## Reverse chronological (newest first)\n\n```mdcms\nposts-date-reversechronological\nlimit: 3\npaginate: no\n```\n\n## Chronological (oldest first)\n\n```mdcms\nposts-date-chronological\nlimit: all\npaginate: none\n```\n\n## By year (date, reverse chrono)\n\n```mdcms\nposts-date-reversechronological-byyear\nlimit: all\ndefaultyear: current\nselectyear: yes\npaginate: none\n```\n\n## By year+month (datetime, chrono)\n\n```mdcms\nposts-datetime-chronological-byyearmonth\nlimit: all\ndefaultyear: 2024\nselectyear: yes\n```\n\n## Last 30 days\n\n```mdcms\nposts-date-reversechronological-lastmonth\nlimit: all\npaginate: none\n```\n\n## Paginated (2 per page)\n\n```mdcms\nposts-datetime-reversechronological\nlimit: 2\npaginate: yes\n```\n"
   },
   {
-    "file": "pages/hidden/electricityoutage.md",
-    "title": "HIDDEN",
+    "file": "pages/communication/home.md",
+    "title": "Overview",
     "section-id": null,
     "keywords": "",
     "description": "",
@@ -21,6 +21,78 @@
     "date": "",
     "datetime": "",
     "language": "en",
-    "body": "# HIDDEN\n\nThis is the default startpage for MD-CMS. \n\n## Testing MD-CMS\n\nIf you want to test `MD-CMS` you can grab `samplesite` from the repo and place the content in your website root. This page (`pages/home.md`) won't be replaced.\n\n**Post listing tests** below contains various custom tags to display posts. There are no posts now, but if you download the `samplesite` it will fetch the posts in \n\n## Post listing tests\n\n## Reverse chronological (newest first)\n\n```mdcms\nposts-date-reversechronological\nlimit: 3\npaginate: no\n```\n\n## Chronological (oldest first)\n\n```mdcms\nposts-date-chronological\nlimit: all\npaginate: none\n```\n\n## By year (date, reverse chrono)\n\n```mdcms\nposts-date-reversechronological-byyear\nlimit: all\ndefaultyear: current\nselectyear: yes\npaginate: none\n```\n\n## By year+month (datetime, chrono)\n\n```mdcms\nposts-datetime-chronological-byyearmonth\nlimit: all\ndefaultyear: 2024\nselectyear: yes\n```\n\n## Last 30 days\n\n```mdcms\nposts-date-reversechronological-lastmonth\nlimit: all\npaginate: none\n```\n\n## Paginated (2 per page)\n\n```mdcms\nposts-datetime-reversechronological\nlimit: 2\npaginate: yes\n```\n"
+    "body": "# Communication \n**200: Communication:** Internal, external, translation"
+  },
+  {
+    "file": "pages/emergencysafety/home.md",
+    "title": "Overview",
+    "section-id": null,
+    "keywords": "",
+    "description": "",
+    "author": null,
+    "date": "",
+    "datetime": "",
+    "language": "en",
+    "body": "# Emergency and safety \n**500: Emergency and safety:** Fire/evacuation, medical emergency, security incidents"
+  },
+  {
+    "file": "pages/interpreters/home.md",
+    "title": "Overview",
+    "section-id": null,
+    "keywords": "",
+    "description": "",
+    "author": null,
+    "date": "",
+    "datetime": "",
+    "language": "en",
+    "body": "# Interpreters \n**600 Interpreters:** Documents, confidentiality, timesheets, etc."
+  },
+  {
+    "file": "pages/itequipment/home.md",
+    "title": "Overview",
+    "section-id": null,
+    "keywords": "",
+    "description": "",
+    "author": null,
+    "date": "",
+    "datetime": "",
+    "language": "en",
+    "body": "# IT/equipment \n**400: IT/equipment:** Printer, scanner, computers, software, phones, software access "
+  },
+  {
+    "file": "pages/peopleadmin/home.md",
+    "title": "Overview",
+    "section-id": null,
+    "keywords": "",
+    "description": "",
+    "author": null,
+    "date": "",
+    "datetime": "",
+    "language": "en",
+    "body": "# People and admin \n**100: People and admin:** Staff, leave requests, invoices/reimbursements, onboarding"
+  },
+  {
+    "file": "pages/reception/home.md",
+    "title": "Overview",
+    "section-id": null,
+    "keywords": "",
+    "description": "",
+    "author": null,
+    "date": "",
+    "datetime": "",
+    "language": "en",
+    "body": "# Reception\n**700 Reception:** Handling inquiries, emails, phone system, tickets, responses, etc."
+  },
+  {
+    "file": "pages/securityconfidentiality/home.md",
+    "title": "Overview",
+    "section-id": null,
+    "keywords": "",
+    "description": "",
+    "author": null,
+    "date": "",
+    "datetime": "",
+    "language": "en",
+    "body": "# Security/confidentiality \n**300: Security/confidentiality:** Client confidentiality, Physical documents, Digital security, Visitor/client management"
   }
 ]
