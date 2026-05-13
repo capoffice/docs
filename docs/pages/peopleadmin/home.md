@@ -1,7 +1,7 @@
 ---
 title: Overview
 created: 2026-05-13
-section: peopleadmin
+section-id: peopleadmin
 sort: 100
 ---
 
