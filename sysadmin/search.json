@@ -1,0 +1,15 @@
+[
+  {
+    "file": "pages/home.md",
+    "title": "Home",
+    "section-id": null,
+    "keywords": "",
+    "description": "",
+    "author": null,
+    "date": "",
+    "datetime": "",
+    "language": "en",
+    "body": "# Post Listing Tests\n\n## Reverse chronological (newest first)\n\n```mdcms\nposts-date-reversechronological\nlimit: 3\npaginate: no\n```\n\n## Chronological (oldest first)\n\n```mdcms\nposts-date-chronological\nlimit: all\npaginate: none\n```\n\n## By year (date, reverse chrono)\n\n```mdcms\nposts-date-reversechronological-byyear\nlimit: all\ndefaultyear: current\nselectyear: yes\npaginate: none\n```\n\n## By year+month (datetime, chrono)\n\n```mdcms\nposts-datetime-chronological-byyearmonth\nlimit: all\ndefaultyear: 2024\nselectyear: yes\n```\n\n## Last 30 days\n\n```mdcms\nposts-date-reversechronological-lastmonth\nlimit: all\npaginate: none\n```\n\n## Paginated (2 per page)\n\n```mdcms\nposts-datetime-reversechronological\nlimit: 2\npaginate: yes\n```\n",
+    "category": "en"
+  }
+]
