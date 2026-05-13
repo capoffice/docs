@@ -6,7 +6,7 @@ sections:
   # (none yet — add section-id to page frontmatter to auto-create)
 pages:
   - file: pages/hidden/electricityoutage.md
-    title: Home
+    title: HIDDEN
     sort: 100
 
   - file: pages/home.md
