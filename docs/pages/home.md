@@ -25,4 +25,4 @@ This is the default startpage for MD-CMS.
 
 **700 Reception:** Handling inquiries, emails, phone system, tickets, responses, etc.
 
-**800 General procedures and knowledge
+**800 General procedures and knowledge:** UNHCR, NSM, resettlement procedures for reception
