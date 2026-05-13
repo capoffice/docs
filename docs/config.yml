@@ -23,7 +23,7 @@
 sitename: docs/docs
 navigation: sidebar           # sidebar | topbar
 
-# homepage: pages/home.md    # override the default landing page
+homepage: pages/home2.md    # override the default landing page
 
 # sitedescription: A short description for meta tags
 # logo: logo.svg             # filename in assets/images/

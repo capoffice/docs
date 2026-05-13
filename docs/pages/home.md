@@ -7,61 +7,22 @@ sort: 100
 
 This is the default startpage for MD-CMS. 
 
-## Testing MD-CMS
+## Layout
 
-If you want to test `MD-CMS` you can grab `samplesite` from the repo and place the content in your website root. This page (`pages/home.md`) won't be replaced.
+> This information is merely temporary while the system is being built.
 
-**Post listing tests** below contains various custom tags to display posts. There are no posts now, but if you download the `samplesite` it will fetch the posts in 
+**100: People and admin:** Staff, leave requests, invoices/reimbursements, onboarding
 
-## Post listing tests
+**200: Communication:** Internal, external, translation
 
-## Reverse chronological (newest first)
+**300: Security/confidentiality:** Client confidentiality, Physical documents, Digital security, Visitor/client management
 
-```mdcms
-posts-date-reversechronological
-limit: 3
-paginate: no
-```
+**400: IT/equipment:** Printer, scanner, computers, software, phones, software access 
 
-## Chronological (oldest first)
+**500: Emergency and safety:** Fire/evacuation, medical emergency, security incidents
 
-```mdcms
-posts-date-chronological
-limit: all
-paginate: none
-```
+**600 Interpreters:** Documents, confidentiality, timesheets, etc.
 
-## By year (date, reverse chrono)
+**700 Reception:** Handling inquiries, emails, phone system, tickets, responses, etc.
 
-```mdcms
-posts-date-reversechronological-byyear
-limit: all
-defaultyear: current
-selectyear: yes
-paginate: none
-```
-
-## By year+month (datetime, chrono)
-
-```mdcms
-posts-datetime-chronological-byyearmonth
-limit: all
-defaultyear: 2024
-selectyear: yes
-```
-
-## Last 30 days
-
-```mdcms
-posts-date-reversechronological-lastmonth
-limit: all
-paginate: none
-```
-
-## Paginated (2 per page)
-
-```mdcms
-posts-datetime-reversechronological
-limit: 2
-paginate: yes
-```
+**800 General procedures and knowledge
