@@ -10,6 +10,7 @@ sort: 900
 In case of a power outage you will lose access to the air conditioning, internet, and the entrance door will be locked.
 
 **Open the entrance door:** If the power is not restored within a short amount of time, you need to open the door using the **office key** which is kept on Tae's desk:
+
 ![image](assets/images/officekey.png)
 
 For safety reasons, please open the left entrance door using this key at the bottom frame. Keep the door open as long as staff remain in the office.
