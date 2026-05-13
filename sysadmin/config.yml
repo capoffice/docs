@@ -20,7 +20,7 @@
 # ──────────────────────────────────
 # Site identity
 # ──────────────────────────────────
-sitename: MD-CMS New Site
+sitename: sysadmin
 navigation: topbar           # sidebar | topbar
 
 # homepage: pages/home.md    # override the default landing page

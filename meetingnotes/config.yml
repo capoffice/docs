@@ -20,8 +20,8 @@
 # ──────────────────────────────────
 # Site identity
 # ──────────────────────────────────
-sitename: MD-CMS New Site
-navigation: topbar           # sidebar | topbar
+sitename: docs/meetingnotes
+navigation: sidebar           # sidebar | topbar
 
 # homepage: pages/home.md    # override the default landing page
 
