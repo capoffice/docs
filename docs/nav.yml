@@ -3,39 +3,39 @@
 # pagesvisibility, categorynames) are preserved on rebuild.
 
 sections:
-  - code: communication
-    defaultname: Communication
+  - code: peopleadmin
+    defaultname: People & admin
     sort: 100
     pagesvisibility: visible
 
-  - code: emergencysafety
-    defaultname: Emergency & safety
-    sort: 110
-    pagesvisibility: visible
-
-  - code: interpreters
-    defaultname: Interpreters
-    sort: 120
+  - code: communication
+    defaultname: Communication
+    sort: 200
     pagesvisibility: visible
 
   - code: itequipment
     defaultname: It & equipment
-    sort: 130
+    sort: 400
     pagesvisibility: visible
 
-  - code: peopleadmin
-    defaultname: People & admin
-    sort: 140
+  - code: emergencysafety
+    defaultname: Emergency & safety
+    sort: 500
+    pagesvisibility: visible
+
+  - code: interpreters
+    defaultname: Interpreters
+    sort: 600
     pagesvisibility: visible
 
   - code: reception
     defaultname: Reception
-    sort: 150
+    sort: 700
     pagesvisibility: visible
 
   - code: securityconfidentiality
     defaultname: Security & confidentiality
-    sort: 160
+    sort: 800
     pagesvisibility: visible
 
 pages:
