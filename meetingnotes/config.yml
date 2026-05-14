@@ -44,6 +44,42 @@ navigation: sidebar           # sidebar | topbar
 # nav-width: 20em
 # nav-position: left         # left | right (sidebar mode)
 
+light:
+  main-accentcolour: "#29307d"
+  main-bgcolour: "#ededed"
+  navigation-bgcolour: "#e0e2ec"
+  navigation-fontcolour: "#29307d"
+  navigation-active-bgcolour: "#b8bfd8"
+  navigation-hover-bgcolour: "#d0d4e2"
+  font-colour: "#14171c"
+  font-colour-muted: "#585d70"
+  code-bgcolour: "#dde0ec"
+  code-fontcolour: "#29307d"
+  divider-colour: "#c4c8d6"
+  table-header-bgcolour: "#d8dce8"
+  table-border-colour: "#c4c8d6"
+  link-style: "#3a4499:underline"
+  link-style-hover: "#1a2060:underline,bold"
+  link-style-visited: "#5a4a9c:underline"
+
+dark:
+  main-accentcolour: "#8f97d9"
+  main-bgcolour: "#14171c"
+  navigation-bgcolour: "#1a1e2a"
+  navigation-fontcolour: "#c8cce0"
+  navigation-active-bgcolour: "#363c60"
+  navigation-hover-bgcolour: "#242940"
+  font-colour: "#ededed"
+  font-colour-muted: "#8a90a3"
+  code-bgcolour: "#1a1e2a"
+  code-fontcolour: "#a8b0e6"
+  divider-colour: "#2a3048"
+  table-header-bgcolour: "#1a1e2a"
+  table-border-colour: "#2a3048"
+  link-style: "#8f97d9:underline"
+  link-style-hover: "#b4bbe8:underline,bold"
+  link-style-visited: "#a89fd4:underline"
+
 # ──────────────────────────────────
 # Features (optional)
 # ──────────────────────────────────
