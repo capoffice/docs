@@ -13,6 +13,10 @@ pages:
     title: Home
     sort: 100
 
+  - file: pages/template.md
+    title: Template
+    sort: 101
+
   - file: pages/unhcr_meetings/20260507_rsd.md
     title: 2026-05-07 | RSD
     section-id: 2026_unhcr_meetings

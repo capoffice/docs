@@ -12,6 +12,18 @@
     "body": "# Meeting notes\n\nMeeting notes are organised by year and type of meeting:\n\n- Internal meetings\n- UNHCR meetings\n- Partner meetings\n- Government meetings\n- Workshops/seminars\n- Conferences"
   },
   {
+    "file": "pages/template.md",
+    "title": "Template",
+    "section-id": null,
+    "keywords": "",
+    "description": "",
+    "author": "Kristian Benestad",
+    "date": "",
+    "datetime": "",
+    "language": "en",
+    "body": "> Below is a skeleton meeting note. At the bottom you will find a code block containing the Markdown code so you can reuse it immediately. \n\n# Title of meeting \n\n## Data\n|Date|Value|\n|--:|:----|\n|**Date:**| --- |\n|**Time start:**| --- |\n|**Time end:**| --- |\n|**Participants - CAP:**| --- |\n|**Participants - [others]:**| --- |\n|**Venue:**| --- |\n\n## Agenda\n\n- Use bullet point or numbered lists\n\n## Meeting notes\n\n- Use bullet point or numbered lists for for short meetings with brief notes.\n- Use a narrative style with headings (start with `###`) for longer meetings.\n\n## Action items\n- [ ] If there are action items, they should be added using checkbox or bullet point lists.\n- [ ] Format is `Name: Action item.`\n\n---\n\n## Code block for the above meeting note:\n\n```\n# Title of meeting \n\n## Data\n|Date|Value|\n|--:|:----|\n|**Date:**| --- |\n|**Time start:**| --- |\n|**Time end:**| --- |\n|**Participants - CAP:**| --- |\n|**Participants - [others]:**| --- |\n|**Venue:**| --- |\n\n## Agenda\n\n- Use bullet point or numbered lists\n\n## Meeting notes\n\n- Use bullet point or numbered lists for for short meetings with brief notes.\n- Use a narrative style with headings (start with `###`) for longer meetings.\n\n## Action items\n- [ ] If there are action items, they should be added using checkbox or bullet point lists.\n- [ ] Format is `Name: Action item.`\n```\n\n"
+  },
+  {
     "file": "pages/unhcr_meetings/20260507_rsd.md",
     "title": "2026-05-07 | RSD",
     "section-id": "2026_unhcr_meetings",
